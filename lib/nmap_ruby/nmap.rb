@@ -50,7 +50,7 @@ module NmapRuby
   	
 private
   	def run
-  		puts "run"
+  		#puts "run"
       begin
         nmap_pipe = ::Open3::popen3([@nmap, 'nmap'], *@arguments)
         temp_nmap_threads = []
